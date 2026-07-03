@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: enterprise-backend
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/sheha
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Santosh@416
+  
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  address: 0.0.0.0
+  port: 8080

@@ -3,10 +3,10 @@ spring:
     name: enterprise-backend
   
   datasource:
-    url: jdbc:mysql://localhost:3306/sheha
+    url: jdbc:mysql://mysql.railway.internal:3306/railway
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
-    password: Santosh@416
+    password: IOhCufzljHByplWWOXfsNhXSYgSWHkoz
   
   jpa:
     hibernate:
